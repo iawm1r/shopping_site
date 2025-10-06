@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./public/login.css" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-7.0.0-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="background">
+        <video
+          src="./video/bg.mp4"
+          class="video" autoplay loop
+          muted
+        ></video>
+        <div class="login rounded" id="box-login-1">
+          <h3 class="text-login">login</h3>
+          <form action="./succes.html" class="form" id="form">
+            <div
+              class="parent-input d-flex justify-content-center align-items-center flex-column"
+            >
+              <input
+                type="text"
+                placeholder="username"
+                class="input rounded"
+                id="username"
+              />
+              <input
+                type="password"
+                placeholder="password"
+                class="input-password rounded"
+                id="password"
+              />
+              <i class="fa-solid fa-eye aseom" id="toggleicon"></i>
+            <button type="submit" class="div-login rounded btn" id="div"></button>
+            </div>
+          </form>
+          <div class="d-flex justify-content-center">
+            <p class="text-acount">no account ?</p>
+            <a href="./signup.html" class="link-sign">sign up</a>
+          </div>
+          <p id="errtext" class="pp"></p>
+        </div>
+      </div>
+    </main>
+
+    <script src="./axios/dist/axios.js"></script>
+    <script src="./jqury.bt/jquery.slim.min.js"></script>
+    <script src="./bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./public/login.js"></script>
+  </body>
+</html>

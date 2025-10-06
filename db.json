@@ -1,0 +1,148 @@
+{
+  "menu": [
+    {
+      "number": "1",
+      "link": "home",
+      "href": "#"
+    },
+    {
+      "number": "2",
+      "link": "about us",
+      "href": "#about us"
+    },
+    {
+      "number": "3",
+      "link": "products",
+      "href": "#products"
+    },
+    {
+      "number": "4",
+      "link": "our story",
+      "href": "#our story"
+    },
+    {
+      "number": "5",
+      "link": "contact",
+      "href": "#contact"
+    }
+  ],
+
+  "product": [
+    {
+      "id": "1",
+      "image": "./image/air-jordan-1-white-royal-release.png",
+      "href": "./login.html",
+      "name": "jordan",
+      "price": "500$",
+      "color": "red",
+      "about": "Air Jordan is a line of basketball and sportswear shoes produced by Nike, Inc. The shoes, related apparel and accessories are now marketed under Jordan Brand. The first Air Jordan shoe was produced for basketball player Michael Jordan during his time with the Chicago Bulls on November 17, 1984",
+      "login": "buy now"
+    },
+    {
+      "id": "2",
+      "image": "./image/nike-air-max-exceed-running-shoe.png",
+      "href": "./login.html",
+      "name": "Nike",
+      "price": "700$",
+      "color": "white",
+      "about": "Nike, Inc.[note 1] (stylized as NIKE) is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon.[6] It is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment, with revenue in excess of US$46 billion in its fiscal year 2022.[7][8]",
+      "login": "buy now"
+    },
+    {
+      "id": "3",
+      "image": "./image/empty-blank-gray-men-s-t-shirt-i.png",
+      "href": "./login.html",
+      "name": "uniqlo",
+      "price": "750$",
+      "color": "lightblue",
+      "about": "Uniqlo is a worldwide popular and across-the-board t-shirt brand that is famous for its top-tier fabrics, minimalist designs, and most importantly, affordable prices. The company was founded and rebranded in 1949. Not only stylish t-shirts, Uniqlo offers a wide range of clothing like seasonal items for   ",
+      "login": "buy now"
+    }
+  ],
+  "offer": [
+    {
+      "id": "1",
+      "image": "./image/pngtree-black-t-shirt-mockup-han.png",
+      "cartname": "leather t-shert",
+      "pricee": "150$",
+      "sale": "20%",
+      "buy": "buy now",
+      "href": "./login.html",
+      "saleprice": "200$",
+      "lorem": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, optio earum nulla labore, molestias necessitatibus saepe quo quis accusamus officia, neque accusantium quibusdam aut consectetur ",
+      "about": "about product"
+    },
+    {
+      "id": "2",
+      "image": "./image/nike-air-max-exceed-running-shoe.png",
+      "cartname": "coat",
+      "pricee": "200$",
+      "sale": "20%",
+      "buy": "buy now",
+      "href": "./login.html",
+      "saleprice": "250$",
+      "lorem": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, optio earum nulla labore, molestias necessitatibus saepe quo quis accusamus officia, neque accusantium quibusdam aut consectetur  ",
+      "about": "about product"
+    },
+    {
+      "id": "3",
+      "image": "./image/pngtree-black-t-shirt-mockup-han.png",
+      "cartname": "shoes",
+      "pricee": "300$",
+      "sale": "20%",
+      "buy": "buy now",
+      "href": "./login.html",
+      "saleprice": "520$",
+      "lorem": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, optio earum nulla labore, molestias necessitatibus saepe quo quis accusamus officia, neque accusantium quibusdam aut consectetur  ",
+      "about": "about product"
+    },
+    {
+      "id": "4",
+      "image": "./image/nike-air-max-exceed-running-shoe.png",
+      "cartname": "drees",
+      "pricee": "199$",
+      "sale": "20%",
+      "buy": "buy now",
+      "href": "./login.html",
+      "saleprice": "399$",
+      "lorem": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, optio earum nulla labore, molestias necessitatibus saepe quo quis accusamus officia, neque accusantium quibusdam aut consectetur  ",
+      "about": "about product"
+    },
+    {
+      "id": "5",
+      "image": "./image/pngtree-black-t-shirt-mockup-han.png",
+      "cartname": "leather t-shert",
+      "pricee": "620$",
+      "sale": "20%",
+      "buy": "buy now",
+      "href": "./login.html",
+      "saleprice": "800$",
+      "lorem": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, optio earum nulla labore, molestias necessitatibus saepe quo quis accusamus officia, neque accusantium quibusdam aut consectetur  ",
+      "about": "about product"
+    },
+    {
+      "id": "5",
+      "image": "./image/nike-air-max-exceed-running-shoe.png",
+      "cartname": "leather t-shert",
+      "pricee": "300$",
+      "sale": "20%",
+      "buy": "buy now",
+      "href": "./login.html",
+      "saleprice": "499$",
+      "lorem": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, optio earum nulla labore, molestias necessitatibus saepe quo quis accusamus officia, neque accusantium quibusdam aut consectetur  ",
+      "about": "about product"
+    },
+    {
+      "id": "5",
+      "image": "./image/pngtree-black-t-shirt-mockup-han.png",
+      "cartname": "leather t-shert",
+      "pricee": "740$",
+      "sale": "20%",
+      "buy": "buy now",
+      "href": "./login.html",
+      "saleprice": "920$",
+      "lorem": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, optio earum nulla labore, molestias necessitatibus saepe quo quis accusamus officia, neque accusantium quibusdam aut consectetur  ",
+      "about": "about product"
+    }
+  ]
+}
