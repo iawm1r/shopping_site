@@ -157,28 +157,33 @@ let offer = async () => {
 };
 offer();
 
-let endTime = new Date().getTime() + 2 * 60 * 60 * 1000;
-
+let endtime = localStorage.getItem("endtime");
+if(!endtime){
+  endtime = new Date().getTime() + 2 * 60 * 60 * 1000
+  localStorage.setItem("endtime" , endtime)
+}else{
+endtime = parseInt(endtime)
+}
 function updateTimer() {
   let now = new Date().getTime();
-  let distance = endTime - now;
-
-  if (distance <= 0) {
+  let distance = endtime - now;
+  if ( distance <= 0) {
     document.getElementById("timer").innerHTML = "تخفیف تمام شد!";
     clearInterval(timerInterval);
+    localStorage.removeItem("endtime");
     return;
   }
 
-  let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  let hours = Math.floor(( distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor(( distance % (1000 * 60 * 60)) / (1000 * 60));
+  let seccond = Math.floor(( distance % (1000 * 60)) / 1000);
 
   document.getElementById("hours").innerText = String(hours).padStart(2, "0");
   document.getElementById("minutes").innerText = String(minutes).padStart(
     2,
     "0"
   );
-  document.getElementById("seconds").innerText = String(seconds).padStart(
+  document.getElementById("secconds").innerText = String(seccond).padStart(
     2,
     "0"
   );
@@ -243,7 +248,7 @@ function addComment() {
     pdiv.style.width = "90px";
     pdiv.style.height = "90px";
     pdiv.style.display = "flex";
-    pdiv.style.flexDirection='column'
+    pdiv.style.flexDirection = "column";
     pdiv.style.justifyContent = "center";
     pdiv.style.alignItems = "center";
     pdiv.style.flexShrink = "0";
@@ -261,12 +266,10 @@ function addComment() {
     let newComment = document.createElement("div");
     newComment.classList.add("text_box4");
     newComment.textContent = commentText;
-    div.appendChild(pdiv)
-    div.appendChild(newComment)
-    
+    div.appendChild(pdiv);
+    div.appendChild(newComment);
 
     document.querySelector("#comments-list").appendChild(div);
- 
 
     // document.getElementById("comments-list").appendChild(newComment);
     // document.getElementById("comments-list").appendChild(pdiv);
